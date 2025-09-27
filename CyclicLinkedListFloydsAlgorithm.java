@@ -9,7 +9,7 @@
  *     }
  * }
  */
-public class Solution {
+public class CyclicLinkedListFloydsAlgorithm {
     public boolean hasCycle(ListNode head) {
         if(head==null || head.next==null) {
             return false;
